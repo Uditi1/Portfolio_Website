@@ -1,0 +1,375 @@
+.worktwo{
+    width: 100%;
+    min-height: 83vh;
+    margin-top: 70px;
+}
+
+.worktwo_container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    max-width: 1000px;
+    gap: 60px;
+}
+
+.worktwo_heading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #F8F8FF;
+}
+
+.worktwo_description{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 20px;
+}
+
+.worktwo_rowone{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    color: #F8F8FF;
+    gap: 30px;
+    align-items: center;
+}
+
+.worktwo_rowone h5{
+    font-weight: 700px;
+    font-size: 25px;
+}
+
+.worktwo_rowone p{
+    font-size: 25px;
+}
+
+.worktwo_rowtwo{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    color: #F8F8FF;
+    gap: 30px;
+    align-items: center;
+}
+
+.worktwo_rowtwo h5{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.worktwo_rowtwo p{
+    font-size: 25px;
+}
+
+.worktwo_button{
+    display: flex;
+    gap: 40px;
+    height: 70px;
+    cursor: pointer;
+}
+
+.worktwo_rowthree{
+    display: flex;
+    font-size: 20px;
+    color: #F8F8FF;
+}
+
+
+
+            /* Live Button */
+
+.worktwo_btnone{
+    display: block;
+    color: #F8F8FF;
+    background-color: #00BFFF;
+    font-size: 28px;
+    width: 180px;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    line-height: 70px;
+    text-decoration: none;
+}
+
+.worktwo_btnone div{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.worktwo_btnone span.worktwo-bg{
+    background-color: #1B91FB;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    border: 1px solid #00BFFF;
+    left: -5%;
+    transition: .7s ease;
+    transform: skewX(-10deg);
+}
+
+.worktwo_btnone:hover span.worktwo-bg{
+    width: 110%;
+}
+
+.worktwo_btnone span.worktwo-bg2{
+    background-color: #FF3662;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    left: -5%;
+    transition: .6s ease-in-out;
+    transform: skewX(-12deg);
+}
+
+.worktwo_btnone:hover span.worktwo-bg2{
+    width: 110%;
+}
+
+.worktwo_btnone span.worktwo-base{
+    box-sizing: border-box;
+    background: transparent;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #00BFFF;
+}
+
+.worktwo_btnone span.worktwo-text{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: transparent;
+}
+
+            /* Github Button */
+
+.worktwo_btntwo{
+    display: block;
+    color: #F8F8FF;
+    background-color: #00BFFF;
+    font-size: 28px;
+    width: 180px;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    line-height: 70px;
+    text-decoration: none;
+}
+
+.worktwo_btntwo div{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.worktwo_btntwo span.worktwo2-bg{
+    background-color: #1B91FB;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    border: 1px solid #00BFFF;
+    left: -5%;
+    transition: .7s ease;
+    transform: skewX(-10deg);
+}
+
+.worktwo_btntwo:hover span.worktwo2-bg{
+    width: 110%;
+}
+
+.worktwo_btntwo span.worktwo2-bg2{
+    background-color: #FF3662;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    left: -5%;
+    transition: .6s ease-in-out;
+    transform: skewX(-12deg);
+}
+
+.worktwo_btntwo:hover span.worktwo2-bg2{
+    width: 110%;
+}
+
+.worktwo_btntwo span.worktwo2-base{
+    box-sizing: border-box;
+    background: transparent;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #00BFFF;
+}
+
+.worktwo_btntwo span.worktwo2-text{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: transparent;
+}
+
+.worktwo_images{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 50px;
+}
+
+            /* Back Button */
+
+.worktwo_buttontwo{
+    display: flex;
+    gap: 40px;
+    height: 70px;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.worktwo_btnthree{
+    display: block;
+    color: #F8F8FF;
+    background-color: #00BFFF;
+    font-size: 28px;
+    width: 210px;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    line-height: 70px;
+    text-decoration: none;
+}
+
+.worktwo_btnthree div{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.worktwo_btnthree span.worktwo3-bg{
+    background-color: #1B91FB;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    border: 1px solid #00BFFF;
+    left: -5%;
+    transition: .7s ease;
+    transform: skewX(-10deg);
+}
+
+.worktwo_btnthree:hover span.worktwo3-bg{
+    width: 110%;
+}
+
+.worktwo_btnthree span.worktwo3-bg2{
+    background-color: #FF3662;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    left: -5%;
+    transition: .6s ease-in-out;
+    transform: skewX(-12deg);
+}
+
+.worktwo_btnthree:hover span.worktwo3-bg2{
+    width: 110%;
+}
+
+.worktwo_btnthree span.worktwo3-base{
+    box-sizing: border-box;
+    background: transparent;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #00BFFF;
+}
+
+.worktwo_btnthree span.worktwo3-text{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: transparent;
+}
+
+
+
+            /* Mobile Version */
+
+@media (max-width: 500px){
+
+    .worktwo_heading{
+        font-size: 30px;
+    }
+
+    .worktwo_rowone h5{
+        font-weight: 700px;
+        font-size: 20px;
+    }
+    
+    .worktwo_rowone p{
+        font-size: 20px;
+    }
+
+    .worktwo_rowtwo h5{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    
+    .worktwo_rowtwo p{
+        font-size: 20px;
+    }
+
+    .worktwo_btnone{
+        font-size: 25px;
+        width: 150px;
+    }
+
+    .worktwo_btntwo{
+        font-size: 25px;
+        width: 150px;
+    }
+
+    .worktwo_rowthree{
+        font-size: 16px;
+    }
+
+    .worktwo_btnthree{
+        font-size: 25px;
+        width: 190px;
+        text-align: center;
+        line-height: 65px;
+    }
+
+}
+
+@media (max-width: 400px){
+ 
+    .worktwo_btnone{
+        font-size: 22px;
+        width: 130px;
+    }
+
+    .worktwo_btntwo{
+        font-size: 22px;
+        width: 130px;
+    }
+
+    .worktwo_btnthree{
+        font-size: 22px;
+        width: 180px;
+    }
+
+}

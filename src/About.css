@@ -1,0 +1,255 @@
+.about{
+    height: 100vh;
+    width: 100%;
+}
+
+.about-container{
+    display: flex;
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1000px;
+    align-items: center;
+    gap: 100px;
+}
+
+.about_container .left{
+    display: flex;
+    flex-direction: column;
+    flex: 6;
+}
+
+.about_container .right{
+    display: flex;
+    flex: 8;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.right img{
+    height: 455px;
+    animation: rotate 10s infinite alternate-reverse;
+    -webkit-animation: rotate  10s infinite alternate-reverse;
+    -o-animation: rotate 10s infinite alternate-reverse; 
+}
+
+@keyframes rotate{
+    0%{
+        transform:  rotate(0deg);
+    }
+    100%{
+        transform: rotate(45deg);
+    }
+}
+
+.left .about_heading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    color: #F8F8FF;
+}
+
+.left .about_desc{
+    font-family: 'Poppins', sans-serif;
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #F8F8FF;
+    max-width: 400px;
+}
+
+            /* Resume Button */
+
+.about_resume{
+    margin-top: 40px;
+    display: flex;
+    height: 70px;
+}
+
+.left .about_resume .resume_button{
+    display: block;
+    color: #F8F8FF;
+    background-color: #00BFFF;
+    font-size: 1.8rem;
+    position: relative;
+    width: 180px;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    line-height: 70px;
+    overflow: hidden;
+}
+
+.resume_button div{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.resume_button span.resume-bg2{
+    background-color: #1B91FB;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    border: 1px solid #1B91FB;
+    left: -5%;
+    transition: .4s ease-in-out ;
+    transform: skewX(-10deg); 
+}
+
+.resume_button:hover span.resume-bg2{
+    width: 110%;
+}
+
+.resume_button span.resume-bg{
+    background-color: #FF3662;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    left: -5%;
+    transition: .6s ease-in-out;
+    transform: skewX(-12deg);
+}
+
+.resume_button:hover span.resume-bg{
+    width: 110%;
+}
+
+.resume_button span.resume-base{
+    box-sizing: border-box;
+    background-color: transparent;
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #00BFFF;
+}
+
+.resume_button span.resume-text{
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    background-color: transparent;
+} 
+
+.resume_button span.resume-text:hover{
+    color: #F8F8FF;
+}
+
+
+
+            /* Mobile Version */
+
+@media (max-width: 1080px){
+
+    .right img{
+        height: 400px;
+    }
+}
+
+@media (max-width: 1024px){
+    .about-container{
+        width: 82%;
+        gap: 80px;
+    }
+
+    .right img{
+        height: 400px;
+    }
+
+    .left .about_heading{
+        font-size: 60px;  
+    }
+}
+
+@media (max-width: 1000px){
+    .about-container{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 80%;
+        margin: 0 auto;
+        max-width: 1000px;
+        align-items: center;
+        justify-content: center;
+        gap: 80px;
+    }
+
+    .left{
+        width: 100%;
+    }
+
+    .left .about_heading{
+        font-size: 56px;  
+    }
+
+    .right img{
+        height: 350px;
+    }
+
+    .left .about_desc{
+        padding-top: 10px;
+        font-size: 18px;
+        max-width: 400px;
+    }
+   
+}
+
+@media (max-width: 500px){
+
+    .left .about_heading{
+        font-size: 45px;  
+    }
+
+    .right img{
+        height: 280px;
+    }
+
+    .left .about_resume .resume_button{
+        font-size: 20px;
+        position: relative;
+        width: 130px;
+    }
+
+    .left .about_desc{
+        font-size: 14px;
+        line-height: 30px;
+        font-weight: 400;
+        color: #F8F8FF;
+        max-width: 400px;
+    }
+    
+}
+
+@media (max-width: 400px){
+
+    .left .about_heading{
+        font-size: 40px;  
+    }
+
+    .right img{
+        height: 220px;
+    }
+
+    .left .about_resume .resume_button{
+        font-size: 20px;
+        position: relative;
+        width: 130px;
+    }
+
+    .left .about_desc{
+        font-size: 13px;
+        line-height: 30px;
+        font-weight: 400;
+        color: #F8F8FF;
+        max-width: 400px;
+    }
+
+    
+
+}
+
